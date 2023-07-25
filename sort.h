@@ -31,8 +31,8 @@ void counting_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void shift_down(int *array, int size, int start);
 void radix_sort(int *array, size_t size);
-void merge_sort_helper(int *array, int *left, 
-		int *right, size_t left_size, size_t right_size);
+void merge_sort_helper(int *array, size_t left, size_t right);
+void merge(int *array, size_t left, size_t mid, size_t right);
 void merge_sort(int *array, size_t size);
 
 
